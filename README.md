@@ -60,6 +60,6 @@ You can use a tool like [FireShot](https://getfireshot.com/) to take the screens
 
 ## Author
 
-- Linkedin        - [ToluwalaseAdejuwon](https://www.linkedin.com/)
+- Linkedin        - [ToluwalaseAdejuwon](https://www.linkedin.com/mwlite/in/adejuwon-toluwalase-660580234)
 - Frontend Mentor - [@Tolux001](https://www.frontendmentor.io/profile/Tolux001)
 - Twitter         - [@Tolux001](https://www.twitter.com/tolux001)
