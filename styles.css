@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('asset/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Fraunces';
+    src: url('asset/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: 50px auto;
+    overflow: auto;
+    padding: 0;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    max-width: 650px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+}
+.section-two {
+    flex: 50%;
+    padding: 20px 40px;
+}
+.section-one {
+    flex: 50%;
+}
+.mobile-preveiw {
+    display: none;
+}
+.section-one img {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media(max-width:1000px){
+    .section-one img {
+        min-height: 100vh;
+    }
+}
+.paragraph-one {
+    letter-spacing: 7px;
+}
+.section-two h1 {
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Fraunces';
+    color: hsl(212, 21%, 14%);
+}
+.value-big {
+    font-weight: 700;
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+    font-size: xx-large;
+    margin-right: 15px;
+}
+.value {
+    margin-top: 10px;
+    display: inline-block;
+}
+.paragragh {
+    word-spacing: 5px;
+    line-height: 25px;
+}
+.section-two button {
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+.section-two button:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+@media(max-width:425px){
+    .section {
+        display: block;
+    }
+    .mobile-preveiw {
+        display: block;
+    }
+    .section-one img {
+        min-height: 50vh;
+    }
+    .desktop-preveiw {
+        display: none;
+    }
+    .paragraph-one {
+        letter-spacing: 5px;
+    }
+    .section-two h1 {
+        font-size: 25px;
+    }
+    .section-two {
+        padding: 10px 15px;
+    }
+}
