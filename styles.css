@@ -11,7 +11,7 @@
 }
 body {
     background-color: hsl(30, 38%, 92%);
-    margin: 50px auto;
+    
     overflow: auto;
     padding: 0;
 }
