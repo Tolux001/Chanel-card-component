@@ -11,7 +11,7 @@
 }
 body {
     background-color: hsl(30, 38%, 92%);
-    
+
     overflow: auto;
     padding: 0;
 }
@@ -37,7 +37,7 @@ p {
 .card {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 87%;
     max-width: 650px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
