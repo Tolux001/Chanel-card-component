@@ -33,8 +33,8 @@ You can use a tool like [FireShot](https://getfireshot.com/) to take the screens
 
 ### Links
 
-- View solution on frontend mentor : [Frontend mentor](https://your-solution-url.com)
-- Live Site URL                    : [Live site URL](https://your-live-site-url.com)
+- View solution on frontend mentor : [Frontend mentor](https://www.frontendmentor.io/solutions/semantic-html5-markup-flexbox-responsive-shopping-product-card-LryuH-Mzl3)
+- Live Site URL                    : [Live site URL](https://chanel-card-component.netlify.app/)
 
 ## My process
 
@@ -49,7 +49,7 @@ You can use a tool like [FireShot](https://getfireshot.com/) to take the screens
 ### Git Clone
 
 ```git clone
-
+  https://github.com/Tolux001/Chanel-card-component.git
 ```
 
 ### Useful resources
