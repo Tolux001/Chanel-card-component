@@ -41,10 +41,10 @@ p {
     max-width: 650px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    animation: tolux 5s infinite;
+    animation: tolux 3s infinite;
 }
 @keyframes tolux {
-    50% {box-shadow: 1px 1px 10px 20px hsl(212, 21%, 14%);}
+    50% {box-shadow: 1px 1px 10px 5px hsl(212, 21%, 14%);}
 }
 .section {
     display: flex;
