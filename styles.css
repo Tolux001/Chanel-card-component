@@ -57,10 +57,16 @@ p {
     display: none;
 }
 .section-one img {
-    border-radius: 15px;
+    
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.mobile-preveiw img {
+    border-radius: 15px 15px 0 0;
+}
+.desktop-preveiw img {
+    border-radius: 15px 0 0 15px;
 }
 @media(max-width:1000px){
     .section-one img {
