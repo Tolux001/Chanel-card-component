@@ -44,7 +44,7 @@ p {
     animation: tolux 3s infinite;
 }
 @keyframes tolux {
-    50% {box-shadow: 1px 1px 10px 2px hsl(0, 0%, 100%);}
+    50% {box-shadow: 1px 1px 10px 6px hsl(0, 0%, 100%);}
 }
 .section {
     display: flex;
